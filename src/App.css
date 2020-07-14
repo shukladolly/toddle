@@ -13,6 +13,46 @@
   }
 }
 
+th{
+  background-color: #cacfd8;
+  padding: 30px;
+}
+
+.grid{
+  display: grid;
+  padding: 10px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+
+
+.display-two{
+  grid-template-columns: 1fr 1fr;
+}
+
+.display-one{
+  grid-template-columns: 100%;
+}
+
+.display-four{
+  grid-template-columns: 50% 50% 40% 160%;
+}
+
+.grid >div{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.body{
+  width: 200px;
+
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +76,13 @@
     transform: rotate(360deg);
   }
 }
+
+.flex-container{
+  display: flex;
+}
+
+
+ 
+
+
+
